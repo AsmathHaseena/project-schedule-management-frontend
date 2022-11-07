@@ -1,0 +1,97 @@
+.reports {
+    margin: 1rem;
+    width: calc(45% - 2rem);
+    min-width: 17.5rem;
+}
+
+.reports a {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    padding: 1rem;
+    color: white;
+    background: #292929;
+}
+
+.reports a:hover,
+.reports a:active {
+    background: #ffd900;
+}
+
+.reports__content {
+    padding: 0;
+}
+
+.reports__image {
+    width: 4rem;
+    height: 4rem;
+    margin-right: 1rem;
+}
+
+.reports__info h2 {
+    font-size: 1.5rem;
+    margin: 0 0 0.5rem 0;
+    font-weight: normal;
+    color: #ffd900;
+}
+
+.reports:hover h2,
+.reports:active h2,
+.reports:hover h3,
+.reports:active h3 {
+    color: #292929;
+}
+
+.reports__info h3 {
+    margin: 0;
+}
+
+.report-container {
+    position: relative;
+    list-style: none;
+    margin: 0 auto;
+    padding: 1rem;
+    width: 90%;
+    max-width: 40rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    border-radius: 6px;
+    background: white;
+}
+
+.report-container h2 {
+    text-align: center;
+}
+
+.report-table {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.report-table table {
+    border: 2px solid forestgreen;
+    width: 800px;
+    height: 200px;
+}
+
+.report-table th {
+    border-bottom: 1px solid black;
+}
+
+.report-table td {
+    text-align: center;
+}
+
+.gantt-report-container {
+    position: relative;
+    list-style: none;
+    margin: 0 auto;
+    padding: 1rem;
+    width: 90%;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    border-radius: 6px;
+    background: white;
+}
